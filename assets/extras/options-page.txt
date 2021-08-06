@@ -1,0 +1,24 @@
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title"><?php _e('baraz Settings', 'baraz' ); ?></h3>
+        <form>
+            <div class="form-group">
+                <label><?php _e('User login required for rating barazs', 'baraz'); ?></label>
+                <select class="form-control" name="r_rating_login_required">
+                    <option value="1">No</option>
+                    <option value="2">Yes</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label><?php _e('User login required for submitting barazs', 'baraz'); ?></label>
+                <select class="form-control" name="r_submission_login_required">
+                    <option value="1">No</option>
+                    <option value="2">Yes</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary"><?php _e('Update', 'baraz'); ?></button>
+            </div>
+        </form>
+    </div>
+</div>
